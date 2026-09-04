@@ -1,0 +1,8 @@
+metric,value
+migration_tables_validated,3
+migration_tables_passed,3
+migration_validation_rate_pct,100.0
+athena_partition_pruning_speedup_x,3.9
+glue_dpu_hours_per_run,0.4
+glue_estimated_cost_per_run_usd,0.176
+glue_estimated_monthly_cost_usd,5.28

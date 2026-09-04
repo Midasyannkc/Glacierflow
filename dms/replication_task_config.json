@@ -1,0 +1,95 @@
+{
+  "_comment": "AWS DMS replication task configuration, full-load + CDC pattern. Not executed against a live source/target here (DMS requires live database endpoints), documented as the production configuration this project's reconciliation logic (validate_migration.py) is designed to check against.",
+
+  "ReplicationTaskSettings": {
+    "TargetMetadata": {
+      "TargetSchema": "",
+      "SupportLobs": true,
+      "FullLobMode": false,
+      "LimitedSizeLobMode": true,
+      "LobMaxSize": 32
+    },
+    "FullLoadSettings": {
+      "TargetTablePrepMode": "DROP_AND_CREATE",
+      "CreatePkAfterFullLoad": false,
+      "StopTaskCachedChangesApplied": false,
+      "MaxFullLoadSubTasks": 8,
+      "TransactionConsistencyTimeout": 600,
+      "CommitRate": 10000
+    },
+    "Logging": {
+      "EnableLogging": true,
+      "LogComponents": [
+        { "Id": "SOURCE_UNLOAD", "Severity": "LOGGER_SEVERITY_DEFAULT" },
+        { "Id": "TARGET_LOAD", "Severity": "LOGGER_SEVERITY_DEFAULT" },
+        { "Id": "TABLES_MANAGER", "Severity": "LOGGER_SEVERITY_DEFAULT" }
+      ]
+    },
+    "ValidationSettings": {
+      "_comment": "This is the setting that matters most for this project's story: DMS's built-in data validation, row-by-row comparison of source vs. target after full load. validate_migration.py in this repo reproduces the same row-count and checksum comparison locally against the CSV source and the Parquet target the Glue job produces.",
+      "EnableValidation": true,
+      "ValidationMode": "ROW_LEVEL",
+      "ThreadCount": 5,
+      "FailureMaxCount": 10000,
+      "RecordFailureDelayInMinutes": 5,
+      "RecordSuspendDelayInMinutes": 30
+    }
+  },
+
+  "TableMappings": {
+    "rules": [
+      {
+        "rule-type": "selection",
+        "rule-id": "1",
+        "rule-name": "select-legacy-customers",
+        "object-locator": { "schema-name": "dbo", "table-name": "CUSTOMERS" },
+        "rule-action": "include"
+      },
+      {
+        "rule-type": "selection",
+        "rule-id": "2",
+        "rule-name": "select-legacy-orders",
+        "object-locator": { "schema-name": "dbo", "table-name": "ORDERS" },
+        "rule-action": "include"
+      },
+      {
+        "rule-type": "selection",
+        "rule-id": "3",
+        "rule-name": "select-legacy-order-items",
+        "object-locator": { "schema-name": "dbo", "table-name": "ORDER_ITEMS" },
+        "rule-action": "include"
+      },
+      {
+        "rule-type": "selection",
+        "rule-id": "4",
+        "rule-name": "select-legacy-products",
+        "object-locator": { "schema-name": "dbo", "table-name": "PRODUCTS" },
+        "rule-action": "include"
+      },
+      {
+        "rule-type": "transformation",
+        "rule-id": "5",
+        "rule-name": "rename-legacy-columns-to-snake-case",
+        "rule-target": "column",
+        "object-locator": { "schema-name": "dbo", "table-name": "%", "column-name": "CUST_ID" },
+        "rule-action": "rename",
+        "value": "cust_id"
+      }
+    ]
+  },
+
+  "SourceEndpoint": {
+    "EngineName": "sqlserver",
+    "_comment": "Legacy on-prem SQL Server instance, connected via a DMS replication instance inside the customer's VPC or via a VPN/Direct Connect link, not simulated in this repo."
+  },
+  "TargetEndpoint": {
+    "EngineName": "s3",
+    "S3Settings": {
+      "BucketName": "glacierflow-raw-zone",
+      "BucketFolder": "legacy-migration/",
+      "DataFormat": "parquet",
+      "ParquetVersion": "PARQUET_2_0",
+      "CompressionType": "SNAPPY"
+    }
+  }
+}

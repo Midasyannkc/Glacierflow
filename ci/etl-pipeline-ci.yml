@@ -1,0 +1,48 @@
+name: ETL Pipeline & Migration Validation CI
+
+on:
+  push:
+    paths:
+      - 'glue-jobs/**'
+      - 'dms/**'
+      - 'data/**'
+  pull_request:
+    paths:
+      - 'glue-jobs/**'
+      - 'dms/**'
+
+jobs:
+  etl-and-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install pyspark duckdb
+
+      - name: Generate synthetic legacy data
+        working-directory: data
+        run: python generate_legacy_data.py
+
+      - name: Run Glue-equivalent PySpark ETL job
+        working-directory: glue-jobs
+        run: python glue_etl_job.py
+
+      - name: Validate migration (row count + checksum reconciliation)
+        working-directory: dms
+        run: python validate_migration.py
+
+      - name: Fail build if migration validation did not pass
+        run: |
+          if grep -q "FAIL" data/migration_validation_report.csv; then
+            echo "Migration validation failed, see migration_validation_report.csv"
+            exit 1
+          fi
+
+      - name: Run Athena partition-pruning test
+        working-directory: athena
+        run: python athena_partition_test.py

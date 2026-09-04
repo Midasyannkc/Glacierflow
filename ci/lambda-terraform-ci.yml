@@ -1,0 +1,53 @@
+name: Lambda & Infrastructure CI
+
+on:
+  push:
+    paths:
+      - 'lambda/**'
+      - 'terraform/**'
+  pull_request:
+    paths:
+      - 'lambda/**'
+      - 'terraform/**'
+
+jobs:
+  lambda-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install boto3 moto
+
+      - name: Generate synthetic data (needed by one real-data test)
+        working-directory: data
+        run: python generate_legacy_data.py
+
+      - name: Run Lambda handler tests (moto-mocked S3)
+        working-directory: lambda
+        run: python test_handler.py
+
+  terraform-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: '1.9.0'
+
+      - name: Terraform fmt check
+        working-directory: terraform
+        run: terraform fmt -check -recursive
+
+      - name: Terraform init (no backend, syntax/provider check only)
+        working-directory: terraform
+        run: terraform init -backend=false
+
+      - name: Terraform validate
+        working-directory: terraform
+        run: terraform validate

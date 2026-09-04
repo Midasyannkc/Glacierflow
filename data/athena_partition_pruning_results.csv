@@ -1,0 +1,3 @@
+query,elapsed_ms,rows_examined_scope
+full_scan_no_partition_filter,11.08,all_31_months
+partition_pruned_single_month,2.82,1_of_31_months

@@ -1,0 +1,4 @@
+table,source_row_count,target_row_count,row_count_match,source_id_checksum,target_id_checksum,checksum_match,validation_status
+customers,5000,5000,True,3c02a2a60745ea23,3c02a2a60745ea23,True,PASS
+products,800,800,True,a1b7e43e55f379a7,a1b7e43e55f379a7,True,PASS
+fact_order_items (join product),66031,66031,True,n/a (join product),n/a (join product),n/a,PASS

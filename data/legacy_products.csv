@@ -1,0 +1,801 @@
+PROD_ID,prod_name,category,unit_cost
+1,Home Goods Item 1,Home Goods,154.68
+2,Home Goods Item 2,Home Goods,32.91
+3,Office Supplies Item 3,Office Supplies,130.72
+4,Sporting Goods Item 4,Sporting Goods,22.18
+5,Electronics Item 5,Electronics,51.69
+6,Home Goods Item 6,Home Goods,265.36
+7,Home Goods Item 7,Home Goods,206.66
+8,Electronics Item 8,Electronics,87.31
+9,Office Supplies Item 9,Office Supplies,156.55
+10,Office Supplies Item 10,Office Supplies,270.41
+11,Sporting Goods Item 11,Sporting Goods,262.68
+12,Home Goods Item 12,Home Goods,287.7
+13,Electronics Item 13,Electronics,170.09
+14,Office Supplies Item 14,Office Supplies,48.75
+15,Apparel Item 15,Apparel,266.02
+16,Sporting Goods Item 16,Sporting Goods,248.51
+17,Electronics Item 17,Electronics,51.38
+18,Electronics Item 18,Electronics,181.65
+19,Sporting Goods Item 19,Sporting Goods,128.35
+20,Home Goods Item 20,Home Goods,149.04
+21,Sporting Goods Item 21,Sporting Goods,247.8
+22,Electronics Item 22,Electronics,23.81
+23,Office Supplies Item 23,Office Supplies,247.13
+24,Home Goods Item 24,Home Goods,261.08
+25,Office Supplies Item 25,Office Supplies,177.43
+26,Apparel Item 26,Apparel,114.25
+27,Office Supplies Item 27,Office Supplies,51.53
+28,Apparel Item 28,Apparel,150.78
+29,Electronics Item 29,Electronics,209.97
+30,Electronics Item 30,Electronics,179.85
+31,Sporting Goods Item 31,Sporting Goods,89.79
+32,Apparel Item 32,Apparel,202.18
+33,Electronics Item 33,Electronics,234.72
+34,Electronics Item 34,Electronics,295.51
+35,Apparel Item 35,Apparel,80.21
+36,Apparel Item 36,Apparel,80.39
+37,Sporting Goods Item 37,Sporting Goods,39.64
+38,Sporting Goods Item 38,Sporting Goods,16.92
+39,Home Goods Item 39,Home Goods,165.04
+40,Home Goods Item 40,Home Goods,63.82
+41,Office Supplies Item 41,Office Supplies,208.72
+42,Electronics Item 42,Electronics,267.68
+43,Home Goods Item 43,Home Goods,252.4
+44,Home Goods Item 44,Home Goods,178.01
+45,Home Goods Item 45,Home Goods,63.43
+46,Office Supplies Item 46,Office Supplies,31.15
+47,Office Supplies Item 47,Office Supplies,140.55
+48,Electronics Item 48,Electronics,166.47
+49,Sporting Goods Item 49,Sporting Goods,71.39
+50,Apparel Item 50,Apparel,236.64
+51,Electronics Item 51,Electronics,142.32
+52,Office Supplies Item 52,Office Supplies,67.48
+53,Electronics Item 53,Electronics,94.7
+54,Electronics Item 54,Electronics,240.78
+55,Home Goods Item 55,Home Goods,113.87
+56,Electronics Item 56,Electronics,175.82
+57,Home Goods Item 57,Home Goods,71.78
+58,Sporting Goods Item 58,Sporting Goods,115.29
+59,Apparel Item 59,Apparel,245.96
+60,Office Supplies Item 60,Office Supplies,44.74
+61,Office Supplies Item 61,Office Supplies,257.35
+62,Home Goods Item 62,Home Goods,115.52
+63,Home Goods Item 63,Home Goods,273.21
+64,Home Goods Item 64,Home Goods,45.83
+65,Home Goods Item 65,Home Goods,101.38
+66,Electronics Item 66,Electronics,211.85
+67,Sporting Goods Item 67,Sporting Goods,93.9
+68,Office Supplies Item 68,Office Supplies,74.36
+69,Home Goods Item 69,Home Goods,54.47
+70,Apparel Item 70,Apparel,257.39
+71,Electronics Item 71,Electronics,38.02
+72,Home Goods Item 72,Home Goods,82.32
+73,Office Supplies Item 73,Office Supplies,74.74
+74,Sporting Goods Item 74,Sporting Goods,109.51
+75,Apparel Item 75,Apparel,24.39
+76,Home Goods Item 76,Home Goods,212.27
+77,Home Goods Item 77,Home Goods,145.07
+78,Office Supplies Item 78,Office Supplies,211.99
+79,Apparel Item 79,Apparel,201.68
+80,Electronics Item 80,Electronics,116.09
+81,Office Supplies Item 81,Office Supplies,291.14
+82,Home Goods Item 82,Home Goods,84.15
+83,Apparel Item 83,Apparel,294.84
+84,Home Goods Item 84,Home Goods,145.8
+85,Apparel Item 85,Apparel,154.84
+86,Sporting Goods Item 86,Sporting Goods,26.09
+87,Apparel Item 87,Apparel,23.72
+88,Apparel Item 88,Apparel,81.71
+89,Office Supplies Item 89,Office Supplies,6.42
+90,Home Goods Item 90,Home Goods,145.63
+91,Home Goods Item 91,Home Goods,250.12
+92,Sporting Goods Item 92,Sporting Goods,269.75
+93,Office Supplies Item 93,Office Supplies,150.31
+94,Apparel Item 94,Apparel,80.65
+95,Sporting Goods Item 95,Sporting Goods,175.69
+96,Electronics Item 96,Electronics,101.81
+97,Electronics Item 97,Electronics,55.29
+98,Home Goods Item 98,Home Goods,260.35
+99,Electronics Item 99,Electronics,60.6
+100,Home Goods Item 100,Home Goods,208.91
+101,Sporting Goods Item 101,Sporting Goods,266.45
+102,Electronics Item 102,Electronics,240.91
+103,Office Supplies Item 103,Office Supplies,43.67
+104,Apparel Item 104,Apparel,105.46
+105,Office Supplies Item 105,Office Supplies,40.4
+106,Home Goods Item 106,Home Goods,289.06
+107,Home Goods Item 107,Home Goods,72.06
+108,Sporting Goods Item 108,Sporting Goods,264.49
+109,Office Supplies Item 109,Office Supplies,272.86
+110,Sporting Goods Item 110,Sporting Goods,30.93
+111,Apparel Item 111,Apparel,224.93
+112,Electronics Item 112,Electronics,65.75
+113,Home Goods Item 113,Home Goods,119.2
+114,Office Supplies Item 114,Office Supplies,87.82
+115,Apparel Item 115,Apparel,242.39
+116,Home Goods Item 116,Home Goods,166.12
+117,Apparel Item 117,Apparel,17.51
+118,Electronics Item 118,Electronics,76.89
+119,Office Supplies Item 119,Office Supplies,142.95
+120,Home Goods Item 120,Home Goods,6.35
+121,Home Goods Item 121,Home Goods,120.21
+122,Office Supplies Item 122,Office Supplies,132.86
+123,Home Goods Item 123,Home Goods,226.66
+124,Electronics Item 124,Electronics,138.72
+125,Electronics Item 125,Electronics,80.41
+126,Office Supplies Item 126,Office Supplies,224.93
+127,Electronics Item 127,Electronics,85.33
+128,Home Goods Item 128,Home Goods,73.35
+129,Sporting Goods Item 129,Sporting Goods,41.56
+130,Home Goods Item 130,Home Goods,14.87
+131,Electronics Item 131,Electronics,262.72
+132,Home Goods Item 132,Home Goods,151.42
+133,Apparel Item 133,Apparel,225.85
+134,Electronics Item 134,Electronics,246.68
+135,Home Goods Item 135,Home Goods,177.0
+136,Office Supplies Item 136,Office Supplies,145.41
+137,Apparel Item 137,Apparel,180.95
+138,Electronics Item 138,Electronics,190.2
+139,Apparel Item 139,Apparel,78.14
+140,Office Supplies Item 140,Office Supplies,210.0
+141,Office Supplies Item 141,Office Supplies,110.1
+142,Sporting Goods Item 142,Sporting Goods,141.55
+143,Electronics Item 143,Electronics,184.89
+144,Apparel Item 144,Apparel,242.45
+145,Apparel Item 145,Apparel,246.31
+146,Apparel Item 146,Apparel,263.27
+147,Apparel Item 147,Apparel,278.59
+148,Sporting Goods Item 148,Sporting Goods,118.28
+149,Office Supplies Item 149,Office Supplies,85.94
+150,Office Supplies Item 150,Office Supplies,30.78
+151,Electronics Item 151,Electronics,210.61
+152,Sporting Goods Item 152,Sporting Goods,102.36
+153,Apparel Item 153,Apparel,78.22
+154,Home Goods Item 154,Home Goods,78.95
+155,Office Supplies Item 155,Office Supplies,110.54
+156,Home Goods Item 156,Home Goods,278.2
+157,Sporting Goods Item 157,Sporting Goods,293.49
+158,Sporting Goods Item 158,Sporting Goods,146.62
+159,Home Goods Item 159,Home Goods,122.44
+160,Apparel Item 160,Apparel,278.37
+161,Home Goods Item 161,Home Goods,212.0
+162,Home Goods Item 162,Home Goods,277.16
+163,Office Supplies Item 163,Office Supplies,17.03
+164,Home Goods Item 164,Home Goods,106.17
+165,Electronics Item 165,Electronics,223.84
+166,Home Goods Item 166,Home Goods,92.69
+167,Office Supplies Item 167,Office Supplies,240.53
+168,Sporting Goods Item 168,Sporting Goods,165.4
+169,Office Supplies Item 169,Office Supplies,133.79
+170,Electronics Item 170,Electronics,223.16
+171,Sporting Goods Item 171,Sporting Goods,196.55
+172,Office Supplies Item 172,Office Supplies,47.04
+173,Apparel Item 173,Apparel,242.22
+174,Electronics Item 174,Electronics,8.58
+175,Home Goods Item 175,Home Goods,177.03
+176,Apparel Item 176,Apparel,286.06
+177,Apparel Item 177,Apparel,139.15
+178,Office Supplies Item 178,Office Supplies,132.46
+179,Sporting Goods Item 179,Sporting Goods,299.62
+180,Office Supplies Item 180,Office Supplies,207.37
+181,Office Supplies Item 181,Office Supplies,17.2
+182,Electronics Item 182,Electronics,18.54
+183,Office Supplies Item 183,Office Supplies,199.35
+184,Home Goods Item 184,Home Goods,201.77
+185,Home Goods Item 185,Home Goods,40.17
+186,Office Supplies Item 186,Office Supplies,75.74
+187,Sporting Goods Item 187,Sporting Goods,182.72
+188,Apparel Item 188,Apparel,262.1
+189,Sporting Goods Item 189,Sporting Goods,61.44
+190,Sporting Goods Item 190,Sporting Goods,153.29
+191,Office Supplies Item 191,Office Supplies,174.44
+192,Office Supplies Item 192,Office Supplies,230.75
+193,Office Supplies Item 193,Office Supplies,140.02
+194,Sporting Goods Item 194,Sporting Goods,156.03
+195,Home Goods Item 195,Home Goods,37.7
+196,Office Supplies Item 196,Office Supplies,234.2
+197,Apparel Item 197,Apparel,229.55
+198,Home Goods Item 198,Home Goods,144.01
+199,Electronics Item 199,Electronics,216.26
+200,Sporting Goods Item 200,Sporting Goods,135.25
+201,Office Supplies Item 201,Office Supplies,42.93
+202,Sporting Goods Item 202,Sporting Goods,77.99
+203,Home Goods Item 203,Home Goods,238.55
+204,Home Goods Item 204,Home Goods,114.58
+205,Sporting Goods Item 205,Sporting Goods,56.76
+206,Home Goods Item 206,Home Goods,113.13
+207,Home Goods Item 207,Home Goods,262.03
+208,Sporting Goods Item 208,Sporting Goods,86.29
+209,Home Goods Item 209,Home Goods,31.38
+210,Electronics Item 210,Electronics,127.13
+211,Home Goods Item 211,Home Goods,121.8
+212,Apparel Item 212,Apparel,230.18
+213,Office Supplies Item 213,Office Supplies,199.57
+214,Electronics Item 214,Electronics,237.48
+215,Home Goods Item 215,Home Goods,104.71
+216,Sporting Goods Item 216,Sporting Goods,131.5
+217,Electronics Item 217,Electronics,95.74
+218,Sporting Goods Item 218,Sporting Goods,140.04
+219,Sporting Goods Item 219,Sporting Goods,119.49
+220,Sporting Goods Item 220,Sporting Goods,58.72
+221,Sporting Goods Item 221,Sporting Goods,104.78
+222,Office Supplies Item 222,Office Supplies,141.52
+223,Sporting Goods Item 223,Sporting Goods,168.12
+224,Sporting Goods Item 224,Sporting Goods,113.8
+225,Sporting Goods Item 225,Sporting Goods,41.97
+226,Apparel Item 226,Apparel,73.41
+227,Sporting Goods Item 227,Sporting Goods,11.97
+228,Apparel Item 228,Apparel,227.46
+229,Sporting Goods Item 229,Sporting Goods,97.21
+230,Home Goods Item 230,Home Goods,169.92
+231,Apparel Item 231,Apparel,178.26
+232,Office Supplies Item 232,Office Supplies,278.49
+233,Apparel Item 233,Apparel,20.15
+234,Home Goods Item 234,Home Goods,101.43
+235,Home Goods Item 235,Home Goods,28.11
+236,Electronics Item 236,Electronics,296.48
+237,Home Goods Item 237,Home Goods,232.99
+238,Home Goods Item 238,Home Goods,268.58
+239,Office Supplies Item 239,Office Supplies,166.32
+240,Office Supplies Item 240,Office Supplies,114.66
+241,Electronics Item 241,Electronics,268.7
+242,Office Supplies Item 242,Office Supplies,257.28
+243,Electronics Item 243,Electronics,285.1
+244,Office Supplies Item 244,Office Supplies,107.75
+245,Apparel Item 245,Apparel,44.66
+246,Home Goods Item 246,Home Goods,167.12
+247,Electronics Item 247,Electronics,274.88
+248,Office Supplies Item 248,Office Supplies,142.21
+249,Home Goods Item 249,Home Goods,171.87
+250,Apparel Item 250,Apparel,67.33
+251,Electronics Item 251,Electronics,17.33
+252,Electronics Item 252,Electronics,270.86
+253,Sporting Goods Item 253,Sporting Goods,135.1
+254,Office Supplies Item 254,Office Supplies,135.86
+255,Sporting Goods Item 255,Sporting Goods,212.75
+256,Electronics Item 256,Electronics,182.76
+257,Apparel Item 257,Apparel,232.56
+258,Home Goods Item 258,Home Goods,37.85
+259,Home Goods Item 259,Home Goods,223.72
+260,Apparel Item 260,Apparel,157.61
+261,Office Supplies Item 261,Office Supplies,233.94
+262,Sporting Goods Item 262,Sporting Goods,156.73
+263,Home Goods Item 263,Home Goods,274.1
+264,Sporting Goods Item 264,Sporting Goods,286.73
+265,Sporting Goods Item 265,Sporting Goods,108.59
+266,Sporting Goods Item 266,Sporting Goods,39.96
+267,Home Goods Item 267,Home Goods,26.94
+268,Electronics Item 268,Electronics,74.19
+269,Electronics Item 269,Electronics,87.93
+270,Electronics Item 270,Electronics,229.54
+271,Sporting Goods Item 271,Sporting Goods,199.71
+272,Office Supplies Item 272,Office Supplies,144.79
+273,Home Goods Item 273,Home Goods,126.52
+274,Home Goods Item 274,Home Goods,240.24
+275,Home Goods Item 275,Home Goods,96.41
+276,Office Supplies Item 276,Office Supplies,284.65
+277,Home Goods Item 277,Home Goods,158.15
+278,Office Supplies Item 278,Office Supplies,222.33
+279,Electronics Item 279,Electronics,277.51
+280,Office Supplies Item 280,Office Supplies,246.24
+281,Home Goods Item 281,Home Goods,53.52
+282,Office Supplies Item 282,Office Supplies,214.21
+283,Office Supplies Item 283,Office Supplies,86.62
+284,Home Goods Item 284,Home Goods,154.46
+285,Office Supplies Item 285,Office Supplies,290.81
+286,Sporting Goods Item 286,Sporting Goods,280.06
+287,Apparel Item 287,Apparel,87.95
+288,Apparel Item 288,Apparel,209.88
+289,Electronics Item 289,Electronics,78.22
+290,Home Goods Item 290,Home Goods,132.72
+291,Apparel Item 291,Apparel,70.09
+292,Apparel Item 292,Apparel,194.71
+293,Electronics Item 293,Electronics,42.13
+294,Sporting Goods Item 294,Sporting Goods,203.57
+295,Apparel Item 295,Apparel,80.71
+296,Apparel Item 296,Apparel,220.2
+297,Office Supplies Item 297,Office Supplies,249.17
+298,Electronics Item 298,Electronics,141.51
+299,Sporting Goods Item 299,Sporting Goods,221.83
+300,Sporting Goods Item 300,Sporting Goods,123.96
+301,Apparel Item 301,Apparel,186.28
+302,Sporting Goods Item 302,Sporting Goods,31.93
+303,Office Supplies Item 303,Office Supplies,181.13
+304,Electronics Item 304,Electronics,202.13
+305,Electronics Item 305,Electronics,264.58
+306,Electronics Item 306,Electronics,87.58
+307,Home Goods Item 307,Home Goods,215.97
+308,Office Supplies Item 308,Office Supplies,88.13
+309,Sporting Goods Item 309,Sporting Goods,165.19
+310,Electronics Item 310,Electronics,178.82
+311,Office Supplies Item 311,Office Supplies,12.37
+312,Home Goods Item 312,Home Goods,299.04
+313,Office Supplies Item 313,Office Supplies,228.85
+314,Home Goods Item 314,Home Goods,224.24
+315,Office Supplies Item 315,Office Supplies,87.27
+316,Home Goods Item 316,Home Goods,227.22
+317,Electronics Item 317,Electronics,121.78
+318,Home Goods Item 318,Home Goods,194.41
+319,Apparel Item 319,Apparel,140.33
+320,Home Goods Item 320,Home Goods,143.76
+321,Home Goods Item 321,Home Goods,7.39
+322,Sporting Goods Item 322,Sporting Goods,287.4
+323,Office Supplies Item 323,Office Supplies,56.36
+324,Office Supplies Item 324,Office Supplies,272.93
+325,Home Goods Item 325,Home Goods,195.44
+326,Apparel Item 326,Apparel,5.95
+327,Home Goods Item 327,Home Goods,33.31
+328,Home Goods Item 328,Home Goods,199.34
+329,Office Supplies Item 329,Office Supplies,66.33
+330,Office Supplies Item 330,Office Supplies,230.83
+331,Home Goods Item 331,Home Goods,26.82
+332,Home Goods Item 332,Home Goods,112.86
+333,Electronics Item 333,Electronics,267.64
+334,Electronics Item 334,Electronics,21.51
+335,Apparel Item 335,Apparel,208.48
+336,Home Goods Item 336,Home Goods,22.28
+337,Office Supplies Item 337,Office Supplies,103.02
+338,Apparel Item 338,Apparel,136.17
+339,Sporting Goods Item 339,Sporting Goods,105.43
+340,Office Supplies Item 340,Office Supplies,244.74
+341,Sporting Goods Item 341,Sporting Goods,111.87
+342,Electronics Item 342,Electronics,18.71
+343,Sporting Goods Item 343,Sporting Goods,278.94
+344,Sporting Goods Item 344,Sporting Goods,297.66
+345,Apparel Item 345,Apparel,92.8
+346,Apparel Item 346,Apparel,171.83
+347,Home Goods Item 347,Home Goods,13.43
+348,Home Goods Item 348,Home Goods,234.84
+349,Home Goods Item 349,Home Goods,288.17
+350,Office Supplies Item 350,Office Supplies,146.52
+351,Office Supplies Item 351,Office Supplies,272.93
+352,Home Goods Item 352,Home Goods,134.74
+353,Home Goods Item 353,Home Goods,243.24
+354,Office Supplies Item 354,Office Supplies,257.64
+355,Sporting Goods Item 355,Sporting Goods,202.15
+356,Apparel Item 356,Apparel,109.1
+357,Apparel Item 357,Apparel,158.72
+358,Home Goods Item 358,Home Goods,146.78
+359,Home Goods Item 359,Home Goods,79.17
+360,Electronics Item 360,Electronics,79.59
+361,Electronics Item 361,Electronics,169.95
+362,Office Supplies Item 362,Office Supplies,7.25
+363,Home Goods Item 363,Home Goods,75.43
+364,Office Supplies Item 364,Office Supplies,258.65
+365,Electronics Item 365,Electronics,113.8
+366,Sporting Goods Item 366,Sporting Goods,161.57
+367,Home Goods Item 367,Home Goods,67.13
+368,Apparel Item 368,Apparel,40.75
+369,Apparel Item 369,Apparel,76.7
+370,Electronics Item 370,Electronics,276.81
+371,Office Supplies Item 371,Office Supplies,71.11
+372,Office Supplies Item 372,Office Supplies,117.12
+373,Electronics Item 373,Electronics,138.29
+374,Electronics Item 374,Electronics,273.6
+375,Sporting Goods Item 375,Sporting Goods,134.83
+376,Home Goods Item 376,Home Goods,299.29
+377,Home Goods Item 377,Home Goods,287.13
+378,Office Supplies Item 378,Office Supplies,41.12
+379,Electronics Item 379,Electronics,213.61
+380,Apparel Item 380,Apparel,236.48
+381,Electronics Item 381,Electronics,252.35
+382,Office Supplies Item 382,Office Supplies,123.81
+383,Sporting Goods Item 383,Sporting Goods,75.76
+384,Home Goods Item 384,Home Goods,65.52
+385,Electronics Item 385,Electronics,133.81
+386,Office Supplies Item 386,Office Supplies,283.14
+387,Office Supplies Item 387,Office Supplies,148.84
+388,Office Supplies Item 388,Office Supplies,188.71
+389,Electronics Item 389,Electronics,174.08
+390,Home Goods Item 390,Home Goods,95.91
+391,Electronics Item 391,Electronics,264.46
+392,Sporting Goods Item 392,Sporting Goods,217.36
+393,Sporting Goods Item 393,Sporting Goods,166.72
+394,Apparel Item 394,Apparel,101.79
+395,Electronics Item 395,Electronics,240.85
+396,Sporting Goods Item 396,Sporting Goods,182.37
+397,Electronics Item 397,Electronics,17.19
+398,Electronics Item 398,Electronics,237.53
+399,Sporting Goods Item 399,Sporting Goods,80.57
+400,Electronics Item 400,Electronics,52.33
+401,Home Goods Item 401,Home Goods,161.64
+402,Sporting Goods Item 402,Sporting Goods,174.05
+403,Sporting Goods Item 403,Sporting Goods,202.44
+404,Office Supplies Item 404,Office Supplies,48.92
+405,Electronics Item 405,Electronics,80.02
+406,Apparel Item 406,Apparel,114.98
+407,Apparel Item 407,Apparel,208.62
+408,Office Supplies Item 408,Office Supplies,286.85
+409,Electronics Item 409,Electronics,296.21
+410,Home Goods Item 410,Home Goods,21.68
+411,Apparel Item 411,Apparel,93.02
+412,Apparel Item 412,Apparel,140.15
+413,Home Goods Item 413,Home Goods,133.29
+414,Apparel Item 414,Apparel,249.31
+415,Electronics Item 415,Electronics,212.23
+416,Apparel Item 416,Apparel,186.02
+417,Sporting Goods Item 417,Sporting Goods,42.81
+418,Home Goods Item 418,Home Goods,202.55
+419,Sporting Goods Item 419,Sporting Goods,25.98
+420,Home Goods Item 420,Home Goods,79.34
+421,Office Supplies Item 421,Office Supplies,190.49
+422,Apparel Item 422,Apparel,149.77
+423,Office Supplies Item 423,Office Supplies,291.55
+424,Apparel Item 424,Apparel,224.26
+425,Apparel Item 425,Apparel,183.51
+426,Home Goods Item 426,Home Goods,69.26
+427,Home Goods Item 427,Home Goods,62.3
+428,Electronics Item 428,Electronics,72.15
+429,Home Goods Item 429,Home Goods,9.18
+430,Electronics Item 430,Electronics,199.12
+431,Electronics Item 431,Electronics,52.32
+432,Apparel Item 432,Apparel,227.8
+433,Office Supplies Item 433,Office Supplies,291.95
+434,Apparel Item 434,Apparel,185.44
+435,Electronics Item 435,Electronics,72.86
+436,Apparel Item 436,Apparel,90.15
+437,Electronics Item 437,Electronics,115.3
+438,Office Supplies Item 438,Office Supplies,282.25
+439,Home Goods Item 439,Home Goods,143.14
+440,Home Goods Item 440,Home Goods,22.72
+441,Sporting Goods Item 441,Sporting Goods,51.45
+442,Home Goods Item 442,Home Goods,157.77
+443,Home Goods Item 443,Home Goods,173.78
+444,Apparel Item 444,Apparel,270.42
+445,Apparel Item 445,Apparel,206.81
+446,Apparel Item 446,Apparel,79.48
+447,Office Supplies Item 447,Office Supplies,259.96
+448,Home Goods Item 448,Home Goods,221.69
+449,Home Goods Item 449,Home Goods,127.96
+450,Sporting Goods Item 450,Sporting Goods,147.1
+451,Electronics Item 451,Electronics,121.59
+452,Home Goods Item 452,Home Goods,276.23
+453,Apparel Item 453,Apparel,208.98
+454,Sporting Goods Item 454,Sporting Goods,295.56
+455,Apparel Item 455,Apparel,9.72
+456,Electronics Item 456,Electronics,262.89
+457,Office Supplies Item 457,Office Supplies,197.17
+458,Home Goods Item 458,Home Goods,204.02
+459,Electronics Item 459,Electronics,247.98
+460,Office Supplies Item 460,Office Supplies,213.86
+461,Apparel Item 461,Apparel,11.96
+462,Home Goods Item 462,Home Goods,175.73
+463,Sporting Goods Item 463,Sporting Goods,54.93
+464,Sporting Goods Item 464,Sporting Goods,121.55
+465,Office Supplies Item 465,Office Supplies,50.36
+466,Home Goods Item 466,Home Goods,291.44
+467,Apparel Item 467,Apparel,286.17
+468,Office Supplies Item 468,Office Supplies,205.99
+469,Sporting Goods Item 469,Sporting Goods,256.28
+470,Sporting Goods Item 470,Sporting Goods,7.58
+471,Sporting Goods Item 471,Sporting Goods,192.47
+472,Home Goods Item 472,Home Goods,185.34
+473,Home Goods Item 473,Home Goods,206.46
+474,Sporting Goods Item 474,Sporting Goods,185.36
+475,Electronics Item 475,Electronics,287.85
+476,Office Supplies Item 476,Office Supplies,222.32
+477,Sporting Goods Item 477,Sporting Goods,145.66
+478,Apparel Item 478,Apparel,148.38
+479,Sporting Goods Item 479,Sporting Goods,66.61
+480,Sporting Goods Item 480,Sporting Goods,85.13
+481,Electronics Item 481,Electronics,19.19
+482,Apparel Item 482,Apparel,100.53
+483,Office Supplies Item 483,Office Supplies,149.81
+484,Office Supplies Item 484,Office Supplies,82.63
+485,Apparel Item 485,Apparel,242.74
+486,Sporting Goods Item 486,Sporting Goods,258.73
+487,Sporting Goods Item 487,Sporting Goods,239.99
+488,Office Supplies Item 488,Office Supplies,276.72
+489,Apparel Item 489,Apparel,267.19
+490,Apparel Item 490,Apparel,249.29
+491,Office Supplies Item 491,Office Supplies,61.2
+492,Electronics Item 492,Electronics,16.41
+493,Home Goods Item 493,Home Goods,22.16
+494,Office Supplies Item 494,Office Supplies,39.99
+495,Home Goods Item 495,Home Goods,212.11
+496,Office Supplies Item 496,Office Supplies,183.62
+497,Home Goods Item 497,Home Goods,238.37
+498,Electronics Item 498,Electronics,64.25
+499,Sporting Goods Item 499,Sporting Goods,171.8
+500,Office Supplies Item 500,Office Supplies,68.34
+501,Sporting Goods Item 501,Sporting Goods,224.71
+502,Apparel Item 502,Apparel,94.45
+503,Sporting Goods Item 503,Sporting Goods,33.54
+504,Sporting Goods Item 504,Sporting Goods,226.76
+505,Electronics Item 505,Electronics,294.43
+506,Office Supplies Item 506,Office Supplies,251.91
+507,Office Supplies Item 507,Office Supplies,246.18
+508,Apparel Item 508,Apparel,5.26
+509,Sporting Goods Item 509,Sporting Goods,70.24
+510,Electronics Item 510,Electronics,198.92
+511,Office Supplies Item 511,Office Supplies,30.26
+512,Electronics Item 512,Electronics,189.43
+513,Electronics Item 513,Electronics,191.49
+514,Electronics Item 514,Electronics,23.79
+515,Home Goods Item 515,Home Goods,20.41
+516,Sporting Goods Item 516,Sporting Goods,22.95
+517,Electronics Item 517,Electronics,81.93
+518,Home Goods Item 518,Home Goods,73.4
+519,Office Supplies Item 519,Office Supplies,173.12
+520,Sporting Goods Item 520,Sporting Goods,53.86
+521,Office Supplies Item 521,Office Supplies,246.99
+522,Sporting Goods Item 522,Sporting Goods,134.3
+523,Home Goods Item 523,Home Goods,229.72
+524,Office Supplies Item 524,Office Supplies,97.33
+525,Electronics Item 525,Electronics,69.57
+526,Apparel Item 526,Apparel,49.05
+527,Sporting Goods Item 527,Sporting Goods,197.79
+528,Office Supplies Item 528,Office Supplies,54.46
+529,Home Goods Item 529,Home Goods,120.9
+530,Home Goods Item 530,Home Goods,190.01
+531,Electronics Item 531,Electronics,170.95
+532,Electronics Item 532,Electronics,264.89
+533,Apparel Item 533,Apparel,254.79
+534,Apparel Item 534,Apparel,261.19
+535,Office Supplies Item 535,Office Supplies,85.15
+536,Sporting Goods Item 536,Sporting Goods,97.24
+537,Electronics Item 537,Electronics,243.89
+538,Apparel Item 538,Apparel,178.72
+539,Office Supplies Item 539,Office Supplies,62.78
+540,Home Goods Item 540,Home Goods,135.66
+541,Apparel Item 541,Apparel,256.55
+542,Electronics Item 542,Electronics,273.71
+543,Electronics Item 543,Electronics,236.65
+544,Office Supplies Item 544,Office Supplies,53.92
+545,Electronics Item 545,Electronics,149.74
+546,Sporting Goods Item 546,Sporting Goods,51.53
+547,Home Goods Item 547,Home Goods,112.48
+548,Sporting Goods Item 548,Sporting Goods,205.83
+549,Sporting Goods Item 549,Sporting Goods,157.34
+550,Sporting Goods Item 550,Sporting Goods,129.52
+551,Electronics Item 551,Electronics,87.47
+552,Apparel Item 552,Apparel,209.19
+553,Sporting Goods Item 553,Sporting Goods,255.29
+554,Office Supplies Item 554,Office Supplies,55.15
+555,Apparel Item 555,Apparel,226.0
+556,Electronics Item 556,Electronics,289.02
+557,Home Goods Item 557,Home Goods,111.63
+558,Apparel Item 558,Apparel,123.89
+559,Office Supplies Item 559,Office Supplies,7.54
+560,Apparel Item 560,Apparel,256.55
+561,Office Supplies Item 561,Office Supplies,283.1
+562,Apparel Item 562,Apparel,62.11
+563,Home Goods Item 563,Home Goods,275.32
+564,Electronics Item 564,Electronics,120.44
+565,Office Supplies Item 565,Office Supplies,37.91
+566,Home Goods Item 566,Home Goods,200.64
+567,Apparel Item 567,Apparel,72.74
+568,Electronics Item 568,Electronics,12.7
+569,Office Supplies Item 569,Office Supplies,285.17
+570,Apparel Item 570,Apparel,291.48
+571,Sporting Goods Item 571,Sporting Goods,247.49
+572,Sporting Goods Item 572,Sporting Goods,274.08
+573,Apparel Item 573,Apparel,106.5
+574,Sporting Goods Item 574,Sporting Goods,104.21
+575,Home Goods Item 575,Home Goods,183.05
+576,Office Supplies Item 576,Office Supplies,103.63
+577,Home Goods Item 577,Home Goods,152.1
+578,Home Goods Item 578,Home Goods,160.4
+579,Apparel Item 579,Apparel,113.95
+580,Home Goods Item 580,Home Goods,253.63
+581,Sporting Goods Item 581,Sporting Goods,268.24
+582,Office Supplies Item 582,Office Supplies,127.4
+583,Office Supplies Item 583,Office Supplies,197.65
+584,Office Supplies Item 584,Office Supplies,126.52
+585,Apparel Item 585,Apparel,78.72
+586,Sporting Goods Item 586,Sporting Goods,164.23
+587,Electronics Item 587,Electronics,163.94
+588,Electronics Item 588,Electronics,170.46
+589,Electronics Item 589,Electronics,167.06
+590,Electronics Item 590,Electronics,65.49
+591,Office Supplies Item 591,Office Supplies,37.33
+592,Electronics Item 592,Electronics,146.14
+593,Sporting Goods Item 593,Sporting Goods,201.27
+594,Home Goods Item 594,Home Goods,185.93
+595,Sporting Goods Item 595,Sporting Goods,177.89
+596,Apparel Item 596,Apparel,100.98
+597,Sporting Goods Item 597,Sporting Goods,287.96
+598,Home Goods Item 598,Home Goods,57.69
+599,Electronics Item 599,Electronics,142.96
+600,Home Goods Item 600,Home Goods,68.2
+601,Office Supplies Item 601,Office Supplies,175.85
+602,Office Supplies Item 602,Office Supplies,73.63
+603,Electronics Item 603,Electronics,284.84
+604,Apparel Item 604,Apparel,133.27
+605,Apparel Item 605,Apparel,287.77
+606,Electronics Item 606,Electronics,232.52
+607,Electronics Item 607,Electronics,116.84
+608,Apparel Item 608,Apparel,237.58
+609,Home Goods Item 609,Home Goods,186.97
+610,Sporting Goods Item 610,Sporting Goods,17.03
+611,Home Goods Item 611,Home Goods,15.11
+612,Office Supplies Item 612,Office Supplies,105.6
+613,Home Goods Item 613,Home Goods,217.6
+614,Electronics Item 614,Electronics,111.25
+615,Home Goods Item 615,Home Goods,277.75
+616,Sporting Goods Item 616,Sporting Goods,258.9
+617,Apparel Item 617,Apparel,274.96
+618,Home Goods Item 618,Home Goods,252.46
+619,Home Goods Item 619,Home Goods,154.13
+620,Sporting Goods Item 620,Sporting Goods,24.02
+621,Office Supplies Item 621,Office Supplies,194.18
+622,Sporting Goods Item 622,Sporting Goods,251.53
+623,Home Goods Item 623,Home Goods,222.27
+624,Home Goods Item 624,Home Goods,61.23
+625,Electronics Item 625,Electronics,212.35
+626,Sporting Goods Item 626,Sporting Goods,103.36
+627,Home Goods Item 627,Home Goods,261.33
+628,Sporting Goods Item 628,Sporting Goods,170.17
+629,Sporting Goods Item 629,Sporting Goods,110.65
+630,Sporting Goods Item 630,Sporting Goods,40.93
+631,Sporting Goods Item 631,Sporting Goods,224.23
+632,Electronics Item 632,Electronics,121.19
+633,Office Supplies Item 633,Office Supplies,233.13
+634,Sporting Goods Item 634,Sporting Goods,126.94
+635,Apparel Item 635,Apparel,283.15
+636,Apparel Item 636,Apparel,243.75
+637,Office Supplies Item 637,Office Supplies,78.72
+638,Home Goods Item 638,Home Goods,18.63
+639,Sporting Goods Item 639,Sporting Goods,279.91
+640,Electronics Item 640,Electronics,136.11
+641,Apparel Item 641,Apparel,118.87
+642,Home Goods Item 642,Home Goods,295.31
+643,Apparel Item 643,Apparel,208.06
+644,Sporting Goods Item 644,Sporting Goods,252.41
+645,Apparel Item 645,Apparel,141.56
+646,Office Supplies Item 646,Office Supplies,53.83
+647,Apparel Item 647,Apparel,277.24
+648,Sporting Goods Item 648,Sporting Goods,73.1
+649,Electronics Item 649,Electronics,42.95
+650,Electronics Item 650,Electronics,37.44
+651,Office Supplies Item 651,Office Supplies,264.15
+652,Office Supplies Item 652,Office Supplies,282.37
+653,Sporting Goods Item 653,Sporting Goods,95.81
+654,Sporting Goods Item 654,Sporting Goods,286.14
+655,Electronics Item 655,Electronics,230.67
+656,Sporting Goods Item 656,Sporting Goods,10.94
+657,Apparel Item 657,Apparel,46.59
+658,Office Supplies Item 658,Office Supplies,155.79
+659,Sporting Goods Item 659,Sporting Goods,69.02
+660,Home Goods Item 660,Home Goods,76.16
+661,Home Goods Item 661,Home Goods,74.99
+662,Home Goods Item 662,Home Goods,193.28
+663,Apparel Item 663,Apparel,83.58
+664,Sporting Goods Item 664,Sporting Goods,202.35
+665,Home Goods Item 665,Home Goods,37.42
+666,Sporting Goods Item 666,Sporting Goods,67.8
+667,Sporting Goods Item 667,Sporting Goods,119.26
+668,Sporting Goods Item 668,Sporting Goods,91.35
+669,Home Goods Item 669,Home Goods,146.13
+670,Office Supplies Item 670,Office Supplies,198.39
+671,Sporting Goods Item 671,Sporting Goods,153.93
+672,Electronics Item 672,Electronics,10.5
+673,Home Goods Item 673,Home Goods,213.68
+674,Apparel Item 674,Apparel,199.44
+675,Apparel Item 675,Apparel,85.25
+676,Electronics Item 676,Electronics,83.14
+677,Office Supplies Item 677,Office Supplies,166.88
+678,Office Supplies Item 678,Office Supplies,231.6
+679,Office Supplies Item 679,Office Supplies,47.16
+680,Sporting Goods Item 680,Sporting Goods,165.34
+681,Home Goods Item 681,Home Goods,37.19
+682,Sporting Goods Item 682,Sporting Goods,73.06
+683,Home Goods Item 683,Home Goods,90.52
+684,Home Goods Item 684,Home Goods,256.96
+685,Home Goods Item 685,Home Goods,213.66
+686,Sporting Goods Item 686,Sporting Goods,171.67
+687,Apparel Item 687,Apparel,121.65
+688,Office Supplies Item 688,Office Supplies,60.47
+689,Apparel Item 689,Apparel,211.99
+690,Apparel Item 690,Apparel,40.31
+691,Electronics Item 691,Electronics,34.51
+692,Office Supplies Item 692,Office Supplies,232.4
+693,Office Supplies Item 693,Office Supplies,111.52
+694,Apparel Item 694,Apparel,5.46
+695,Home Goods Item 695,Home Goods,191.64
+696,Electronics Item 696,Electronics,148.3
+697,Home Goods Item 697,Home Goods,271.09
+698,Home Goods Item 698,Home Goods,65.11
+699,Home Goods Item 699,Home Goods,159.51
+700,Electronics Item 700,Electronics,80.63
+701,Apparel Item 701,Apparel,242.46
+702,Sporting Goods Item 702,Sporting Goods,59.21
+703,Electronics Item 703,Electronics,94.17
+704,Sporting Goods Item 704,Sporting Goods,81.51
+705,Sporting Goods Item 705,Sporting Goods,10.09
+706,Sporting Goods Item 706,Sporting Goods,188.67
+707,Electronics Item 707,Electronics,107.47
+708,Electronics Item 708,Electronics,253.43
+709,Sporting Goods Item 709,Sporting Goods,288.82
+710,Electronics Item 710,Electronics,11.13
+711,Electronics Item 711,Electronics,246.76
+712,Office Supplies Item 712,Office Supplies,205.56
+713,Office Supplies Item 713,Office Supplies,80.32
+714,Home Goods Item 714,Home Goods,229.93
+715,Office Supplies Item 715,Office Supplies,218.57
+716,Home Goods Item 716,Home Goods,189.83
+717,Sporting Goods Item 717,Sporting Goods,131.9
+718,Office Supplies Item 718,Office Supplies,137.1
+719,Home Goods Item 719,Home Goods,220.83
+720,Electronics Item 720,Electronics,234.2
+721,Sporting Goods Item 721,Sporting Goods,124.58
+722,Sporting Goods Item 722,Sporting Goods,163.79
+723,Electronics Item 723,Electronics,243.25
+724,Home Goods Item 724,Home Goods,114.46
+725,Sporting Goods Item 725,Sporting Goods,266.12
+726,Apparel Item 726,Apparel,136.19
+727,Apparel Item 727,Apparel,35.77
+728,Sporting Goods Item 728,Sporting Goods,170.56
+729,Office Supplies Item 729,Office Supplies,289.33
+730,Home Goods Item 730,Home Goods,224.27
+731,Electronics Item 731,Electronics,87.95
+732,Home Goods Item 732,Home Goods,129.57
+733,Sporting Goods Item 733,Sporting Goods,263.14
+734,Office Supplies Item 734,Office Supplies,145.73
+735,Electronics Item 735,Electronics,153.14
+736,Apparel Item 736,Apparel,198.95
+737,Sporting Goods Item 737,Sporting Goods,268.75
+738,Electronics Item 738,Electronics,189.09
+739,Home Goods Item 739,Home Goods,65.49
+740,Sporting Goods Item 740,Sporting Goods,202.63
+741,Sporting Goods Item 741,Sporting Goods,191.67
+742,Sporting Goods Item 742,Sporting Goods,7.59
+743,Electronics Item 743,Electronics,284.84
+744,Office Supplies Item 744,Office Supplies,134.34
+745,Office Supplies Item 745,Office Supplies,256.65
+746,Electronics Item 746,Electronics,36.85
+747,Sporting Goods Item 747,Sporting Goods,15.63
+748,Electronics Item 748,Electronics,141.78
+749,Home Goods Item 749,Home Goods,271.37
+750,Home Goods Item 750,Home Goods,91.82
+751,Sporting Goods Item 751,Sporting Goods,143.04
+752,Apparel Item 752,Apparel,46.5
+753,Office Supplies Item 753,Office Supplies,202.44
+754,Home Goods Item 754,Home Goods,199.85
+755,Apparel Item 755,Apparel,20.66
+756,Apparel Item 756,Apparel,205.42
+757,Sporting Goods Item 757,Sporting Goods,221.96
+758,Electronics Item 758,Electronics,105.96
+759,Apparel Item 759,Apparel,60.38
+760,Home Goods Item 760,Home Goods,254.31
+761,Sporting Goods Item 761,Sporting Goods,14.22
+762,Sporting Goods Item 762,Sporting Goods,132.26
+763,Sporting Goods Item 763,Sporting Goods,215.19
+764,Sporting Goods Item 764,Sporting Goods,123.77
+765,Office Supplies Item 765,Office Supplies,162.4
+766,Apparel Item 766,Apparel,58.1
+767,Office Supplies Item 767,Office Supplies,118.8
+768,Electronics Item 768,Electronics,79.1
+769,Apparel Item 769,Apparel,115.77
+770,Apparel Item 770,Apparel,52.63
+771,Apparel Item 771,Apparel,183.19
+772,Electronics Item 772,Electronics,122.37
+773,Sporting Goods Item 773,Sporting Goods,18.5
+774,Apparel Item 774,Apparel,25.91
+775,Electronics Item 775,Electronics,138.66
+776,Home Goods Item 776,Home Goods,29.18
+777,Apparel Item 777,Apparel,269.35
+778,Apparel Item 778,Apparel,248.63
+779,Sporting Goods Item 779,Sporting Goods,65.23
+780,Apparel Item 780,Apparel,173.7
+781,Office Supplies Item 781,Office Supplies,298.02
+782,Electronics Item 782,Electronics,14.12
+783,Office Supplies Item 783,Office Supplies,87.53
+784,Home Goods Item 784,Home Goods,218.03
+785,Office Supplies Item 785,Office Supplies,132.45
+786,Electronics Item 786,Electronics,187.73
+787,Electronics Item 787,Electronics,183.26
+788,Electronics Item 788,Electronics,163.97
+789,Electronics Item 789,Electronics,226.67
+790,Home Goods Item 790,Home Goods,12.54
+791,Apparel Item 791,Apparel,73.35
+792,Sporting Goods Item 792,Sporting Goods,203.54
+793,Office Supplies Item 793,Office Supplies,181.12
+794,Sporting Goods Item 794,Sporting Goods,261.94
+795,Office Supplies Item 795,Office Supplies,171.39
+796,Office Supplies Item 796,Office Supplies,41.84
+797,Home Goods Item 797,Home Goods,70.91
+798,Apparel Item 798,Apparel,61.22
+799,Electronics Item 799,Electronics,209.69
+800,Apparel Item 800,Apparel,114.83
